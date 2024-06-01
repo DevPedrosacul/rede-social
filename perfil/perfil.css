@@ -55,8 +55,8 @@ body  {
     margin-top: 130px;
 }
 .file{
-    width: 4%;
-    border-radius: 20px;
+    /* width: 4%;
+    border-radius: 20px; */
     text-align: center;
     margin-left:calc(320px);
 }
@@ -70,6 +70,7 @@ form{
     height: 770x;
     padding: 100px;
     border-radius: 20px;
+    box-shadow: 8px 4px 4px #8888;
     align-items: center;
 }
 form img{
@@ -101,7 +102,7 @@ form .input-single .input:valid ~ label{
     transform: translateY(-24px);
     font-size: 12px;
 }
-form input[type=submit]{
+form input[type=submit], .aaa{
     padding: 10px 40px;
     border:  0;
     border-radius: 15px;
@@ -116,15 +117,18 @@ form input[type=submit]{
     margin-right: auto;
     Justify-content: space-evenly;
 } 
-img .emoji {
-    border-radius: 300%;
+.emoji {
+    /* border-radius: 300%; */
     
-    margin-left: calc(200px);
+    /* margin-left: calc(200px); */
     width: 15px;
-    height: 15px;
     border-radius: 100%;
     flex-direction: row;
-    justify-content: space-evenly;
     display:flex ;
 
 }
+
+.avatar1 {
+    cursor: pointer;
+}
+

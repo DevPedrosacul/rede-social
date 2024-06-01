@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="chat.css">
+
+    <title>Chat</title>
+</head>
+<header>
+    <input type="search"  classe="cabeca" placeholder="Pesquisar">            
+        <div class="emoji">
+            <a >💬</a>
+            <a >🔔</a>
+            <a >👤</a>
+        </div>
+        <img onclick="window.location.href='../perfil/perfil.html'" class="avatar1" src="../imagens/images.jpeg" alt="avatar1" width="50px" height= "45px">
+</header>
+
+<body>
+    <aside class="sidebar left-sidebar">
+        <ul>
+            <li><a href="../home/home.html"><img src="../imagens/home.png" width="25px"></a></li>
+            <li><a href="../perfil/perfil.html"><img src="../imagens/user.png" width="25px"></a></li>
+            <li><a href="../chat/chat.html"><img src="../imagens/chat.png" width="25px"></a></li>
+            <li><a href="../login/login.html"><img src="../imagens/logout.png" width="25px"></a></li>
+        </ul>
+    </aside>
+
+
+    <div class="chat-container">
+        <div class="chat-header">
+            <div class="chat-user-avatar">
+                <img src="../imagens/user.png" alt="User Avatar">
+            </div>
+            <span>Rogeria</span>
+        </div>
+        <div class="chat-body">
+            <div class="chat-date">Hoje</div>
+            <div class="message message-sent">
+                <div class="message-avatar">
+                    <img src="../imagens/user.png" alt="User Avatar">
+                </div>
+                <div class="message-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</div>
+            </div>
+            <div class="message message-received">
+                <div class="message-text">Eu não falo inglês não doidão</div>
+            </div>
+            <div class="message message-sent">
+                <div class="message-avatar">
+                    <img src="../imagens/user.png" alt="User Avatar">
+                </div>
+                <div class="message-text">Lorem.....</div>
+            </div>
+        </div>
+        <div class="chat-footer">
+            <input type="text" placeholder="Escreva sua mensagem...">
+            <button class="send-button"><img src="../imagens/send.png" alt="" width="17px"></button>
+        </div>
+    </div>
+
+
+    <aside class="sidebar right-sidebar">
+        <ul>
+            <li><img src="../imagens/images.jpeg" width="45px"></li>
+            <li><img src="../imagens/images.jpeg" width="45px"></li>
+            <li><img src="../imagens/images.jpeg" width="45px"></li>
+            <li><img src="../imagens/images.jpeg" width="45px"></li>
+        </ul>
+    </aside>
+</body>
+</html>
